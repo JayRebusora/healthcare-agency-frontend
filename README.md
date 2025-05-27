@@ -1,12 +1,32 @@
-# React + Vite
+# Healthcare Agency Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for a role-based healthcare agency application.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is the user interface built with React and styled with Tailwind CSS. Currently, it features a login page for users.
 
-## Expanding the ESLint configuration
+## Getting Started (for development - optional for the README on GitHub)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you want to run this project locally:
+
+1.  Clone the repository: `git clone <your_repository_url>`
+2.  Navigate to the project folder: `cd healthcare-agency-frontend`
+3.  Install dependencies: `npm install`
+4.  Start the development server: `npm run dev`
+
+The application will then be accessible at a local development URL (usually `http://localhost:5173/`).
+
+## Deployment
+
+The frontend is currently deployed using GitHub Pages and can be viewed at:
+
+[https://JayRebusora.github.io/healthcare-agency-frontend](https://JayRebusora.github.io/healthcare-agency-frontend)
+
+## Next Steps
+
+[You can add information here about what you plan to work on next, e.g., user dashboard, appointment scheduling, etc.]
+
+---
+
+This project was bootstrapped with the React + Vite template.
