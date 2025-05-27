@@ -1,10 +1,13 @@
-import Login from './pages/auth/Login'; // Import your Login component
-import './index.css'; // Import your main CSS file where Tailwind is processed
+import React from 'react';
+import AuthPage from './auth/AuthPage';
+// import Login from './auth/Login'; // No longer directly rendering Login here
+import './App.css';
 
 function App() {
   return (
-    // The Login component will now be rendered when your app starts
-    <Login />
+    <>
+      <AuthPage />
+    </>
   );
 }
 
