@@ -1,5 +1,5 @@
 import React from 'react';
-import AuthPage from './auth/AuthPage';
+import AuthPage from '.pages/auth/AuthPage';
 // import Login from './auth/Login'; // No longer directly rendering Login here
 import './App.css';
 
